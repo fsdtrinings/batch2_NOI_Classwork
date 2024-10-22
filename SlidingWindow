@@ -1,0 +1,47 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class SlidingWindow {
+
+    public static void main(String[] args) {
+
+        String s = "ADOBECODEBANC";
+        String t = "ABC";
+        int i=0,j=0;
+        String toCheck = "";
+        Set<String> windowBank = new HashSet<>();
+
+        while(i<s.length()){
+            toCheck += s.charAt(i)+"";
+            String contains = checkWindow(toCheck,t);
+            windowBank.add(contains);
+            i++;
+        }//end of outter while
+
+    }
+    public static String checkWindow(String toCheck,String t){
+        char tArr[] = t.toCharArray();
+        String window = "";
+        Set<Boolean> statusSet = new HashSet<Boolean>();
+        for(char a:tArr)
+        {
+            boolean isafound = false;
+            for (int i = 0; i < toCheck.length(); i++) {
+                if(a==toCheck.charAt(i))
+                {
+                    isafound = true;
+                    break;
+                }
+
+            }
+            statusSet.add(isafound);
+        }
+
+        for(boolean a:statusSet)
+        {
+            if(a == false) return null;
+
+        }
+        return toCheck;
+    }
+}
