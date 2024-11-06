@@ -5,7 +5,7 @@ import java.time.temporal.Temporal;
 import java.util.List;
 import java.util.Scanner;
 
-import com.app.entity.DBOperation;
+import com.app.db.DBOperation;
 import com.app.entity.Employee;
 
 public class MainClass {
