@@ -1,0 +1,22 @@
+1) Create Maven Project
+
+2) Once Maven Project Created 
+    2.a) Update POM.xml 
+
+3) Create hibernate.cfg.xml file inside resource folder 
+     in order to create xml file , right click resource folder , select file , select location of resource folder , provide name "hibernate.cfg.xml" 
+     Note : name must be same hibernate.cfg.xml
+
+4) Sometimes cfg file may give u some errors 
+   in order to resolve these issues 
+    click force download solution provided by IDE
+
+5) create new(or desired database in cfg file URL property)
+
+6) create Entity Class
+7) Create Main Class
+
+8) run program like core java application
+
+9) Note , Focus on Hibernate ddl property which takes either create or update dependeing upon requirement
+ 
