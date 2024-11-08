@@ -16,7 +16,7 @@
 6) create Entity Class
 7) Create Main Class
 
-8) run program like core java application
+8) run program like core java application and add in cfg file mapping property 
 
 9) Note , Focus on Hibernate ddl property which takes either create or update dependeing upon requirement
  
