@@ -1,0 +1,15 @@
+
+
+{
+   
+    "customerName": "Ramesh",
+    "bankName": "HDFC",
+    "phoneNumber": 9654144814,
+    "primeCustomer": false
+}
+
+address
+{
+	"houseNumber":"ABC-123"
+	"country":"Japan"
+}
